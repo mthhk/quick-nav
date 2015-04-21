@@ -1,0 +1,45 @@
+{
+	"title" : "KPI-SPACE",
+	"elements" : [
+	    {
+	        "id" : "nav-index",
+	        "title" : "首页",
+	        "target" : "index.jsp",
+	        "icon" : ""
+	    },{
+	        "id" : "nav-extract-num",
+	        "title" : "提数",
+	        "items" : [
+	            {
+	                "id" : "nav-extract-num-user",
+		            "title" : "按创建人",
+		            "target" : "kpi-extract-num-user.action"
+	            },{
+	              	"separater" : "true"  
+	            },{
+	                "id" : "nav-extract-num-user",
+		            "title" : "按内配单",
+		            "target" : "kpi-extract-num-ids.action"
+	            }
+	        ]
+	    },{
+	        "id" : "nav-index",
+	        "title" : "内配趋势",
+	        "target" : "http://www.baidu.com"
+	    },{
+	        "id" : "nav-index",
+	        "title" : "数据展示",
+	        "target" : "http://www.baidu.com"
+	    },{
+	        "id" : "nav-index",
+	        "title" : "相关干系人",
+	        "target" : "http://www.baidu.com"
+	    }
+	],
+	"search" : {
+	    "placeHolder" : "全站搜索",
+	    "submitText" : "搜索",
+	    "action" : "https://www.baidu.com/s",
+	    "keyName" : "wd"
+	}
+}
